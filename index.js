@@ -41,7 +41,7 @@ const fetchUrl = function (requrl) {
 }
 
 
-let getNewDate = function () {
+function getNewDate () {
   targetDate = moment(dateCounter).format("YYYYMMDD")
   
   if (targetDate == END_DATE) {
